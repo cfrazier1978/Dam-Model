@@ -3,5 +3,4 @@
 from models.config import exp
 
 # The root directory of our model code
-model_dir = "models"
-adkadkgja;kjdf;j
+model_dir = "MODELS"
