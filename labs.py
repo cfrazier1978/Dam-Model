@@ -4,6 +4,3 @@ from models.config import exp
 
 # The root directory of our model code
 model_dir = "models"
-print('Hello')
-
-JUNK
