@@ -5,7 +5,7 @@ from models.psubs import partial_state_update_blocks
 
 simulation_parameters = {
     'T': range(500),
-    'N': 100000,
+    'N': 10,
     # 'M': {}
 }
 
