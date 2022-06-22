@@ -1,1 +1,0 @@
-You can check out my model here: [Hydro Dam Model](https://labs-publications.s3.eu-west-1.amazonaws.com/1655386134_grand_ethiopian_renaissance_dam.html)
