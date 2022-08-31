@@ -1,0 +1,16 @@
+theme:
+    name: material
+    palette:
+        scheme: slate
+    features:
+        - toc.integrate
+extra_css:
+    - css/labs.css
+markdown_extensions:
+    - admonition
+nav:
+    - index.md
+extra:
+    generator: false
+plugins:
+    - mkdocs-jupyter

@@ -1,0 +1,23 @@
+[data-md-color-scheme="slate"] {
+    --md-primary-fg-color: #FFCD00;
+    --md-default-bg-color: #232323;
+    --md-code-bg-color: #181818;
+    --md-footer-bg-color: #FFCD00;
+    --md-footer-bg-color--dark: #FFCD
+}
+
+.md-header {
+    color: #232323;
+}
+
+.md-header__topic:first-child {
+    font-weight: 500;
+}
+
+.md-footer {
+    color: #232323;
+}
+
+.md-footer-meta {
+    display: none;
+} 
