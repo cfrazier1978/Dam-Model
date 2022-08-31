@@ -11,10 +11,15 @@ The water flow of the Blue Nile River can pass through the GERD at its normal fl
 ### Genesis State
 ``` python
 genesis_states = {
-    'Reservoir_Capacity': 73000,        #The total amount of water that the Grand Ethiopian Renaissance Dam's reservoir can hold.
-    'Reservoir_Level': 0,               #The starting amount of water within the GERD's reservoir.
-    'Reserve_Percent': .05,              #A variable that will be updated with each time step that keeps track of how much of the water flowing through the dam to hold back to fill the reservoir.
-    'Current_Month': 0,                 #Tracks what month the model is in so that the proper river water level can be pulled.
-    'Number_of_Years': 0                #Tracks how many years it takes to fill the reservoir.
+    # The total amount of water that the reservoir can hold
+    'Reservoir_Capacity': 73000,
+    # The starting amount of water in the reservoir
+    'Reservoir_Level': 0,
+    # Percentage of water flowing through the dam that should be held back in order to fill the reservoir
+    'Reserve_Percent': .05,
+    # The current month (initialized to January)
+    'Current_Month': 0,
+    # How many years to completely fill the reservoir (initialized to 0)
+    'Number_of_Years': 0               
 }
 ```
