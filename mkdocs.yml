@@ -15,6 +15,7 @@ markdown_extensions:
     - pymdownx.superfences
 nav:
     - index.md
+    - analysis.ipynb
 extra:
     generator: false
 plugins:
