@@ -8,7 +8,7 @@ The purpose of this model is not to analyze the hydro politics between the two c
 ### Assumptions
 The water flow of the Blue Nile River can pass through the GERD at its normal flow levels. Otherwise the dam would always have uncontrolled spillover, using the Auxilary Spillway once the reservoir as at full capacity.
 
-### Genesis State
+### Initial Parameters (genesis state)
 ```py
 --8<-- "models/state_variables.py"
 ```
