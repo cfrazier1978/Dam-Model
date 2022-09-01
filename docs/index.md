@@ -23,3 +23,5 @@ genesis_states = {
     'Number_of_Years': 0               
 }
 ```
+
+--8<-- "models/state_variables.py"
