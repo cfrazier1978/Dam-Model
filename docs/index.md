@@ -24,6 +24,6 @@ genesis_states = {
 }
 ```
 
- ```py
+```py
 --8<-- "models/state_variables.py"
 ```
