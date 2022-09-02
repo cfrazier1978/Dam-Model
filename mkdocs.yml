@@ -21,3 +21,5 @@ extra:
 plugins:
     - mkdocs-jupyter:
         execute: true
+        kernel_name: ipykernel
+        
