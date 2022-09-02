@@ -21,5 +21,4 @@ extra:
 plugins:
     - mkdocs-jupyter:
         execute: true
-        kernel_name: "Python 3"
         
