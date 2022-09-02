@@ -20,3 +20,4 @@ extra:
     generator: false
 plugins:
     - mkdocs-jupyter
+        execute: true
