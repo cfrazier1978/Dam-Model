@@ -19,5 +19,5 @@ nav:
 extra:
     generator: false
 plugins:
-    - mkdocs-jupyter
+    - mkdocs-jupyter:
         execute: true
