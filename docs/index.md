@@ -12,5 +12,6 @@ The water flow of the Blue Nile River can pass through the GERD at its normal fl
 ```py
 --8<-- "models/state_variables.py"
 ```
-
+```html
 --8<-- "docs/analysis.html"
+```
