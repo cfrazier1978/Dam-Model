@@ -7,7 +7,7 @@ theme:
 extra_css:
     - css/labs.css
 extra_javascript:
-    - js/require.min.js
+    - js/require.js
     - js/embed-amd.js
 markdown_extensions:
     - admonition
