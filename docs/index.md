@@ -1,4 +1,4 @@
-# Grand Ethiopian Renaissance Dam
+# Overview
 Ethiopia is in the process of building a massive dam on the Nile river called the Grand Ethiopian Renaissance Dam (GERD). This dam will provide water and power for the people of Ethiopia, but there is concern by Egypt (who is down river of the Nile) that this dam will greatly affect the amount of water they receive from the Nile. There are many estimates of how long it would take to fill the reservoir, anywhere between 2 to 40 years, each with a big impact to the goals of Ethiopia and Egypt.
 
 ## Purpose / Goals
