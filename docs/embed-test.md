@@ -1,4 +1,4 @@
-# Jupyterlite Tests
+# JupyterLite Tests
 ## Retrolab
 <iframe
   src="https://jupyterlite.readthedocs.io/en/latest/_static/retro/notebooks/index.html?path=intro-retro.ipynb&theme='JupyterLab Dark'"
