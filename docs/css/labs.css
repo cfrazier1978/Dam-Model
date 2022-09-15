@@ -34,8 +34,9 @@
     -webkit-appearance: none;
     appearance: none;
     accent-color: var(--md-primary-fg-color);
-    box-shadow: 0 0 0 2px red;
-    height: 25px;
+    border: 2px solid var(--md-primary-fg-color);
+    border-radius: 50%;
+    height: 25px; 
     width: 25px;
 }
 
