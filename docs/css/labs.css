@@ -26,6 +26,7 @@
     -webkit-appearance: none;
     appearance: none;
     accent-color: var(--md-primary-fg-color);
+    cursor: pointer;
     height: 25px;
     width: 25px;
 }
@@ -36,8 +37,13 @@
     accent-color: var(--md-primary-fg-color);
     border: 2px solid var(--md-primary-fg-color);
     border-radius: 50%;
+    cursor: pointer;
     height: 25px; 
     width: 25px;
+}
+
+.radio:checked .radio:checked:before {
+    background: var(--md-primary-fg-color);
 }
 
 .slider {
