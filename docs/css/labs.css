@@ -35,6 +35,10 @@
     box-shadow: 2px solid var(--md-default-bg-color);
 }
 
+.radio::before {
+    box-shadow: 2px solid red;
+}
+
 .slider {
     -webkit-appearance: none;
     width: 100%;
