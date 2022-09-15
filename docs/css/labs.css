@@ -22,6 +22,16 @@
     display: none;
 }
 
+.checkbox {
+    height: 15px;
+    width: 15px;
+}
+
+.radio {
+    height: 15px;
+    width: 15px;
+}
+
 .slider {
   -webkit-appearance: none;
   width: 100%;
