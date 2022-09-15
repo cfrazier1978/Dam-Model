@@ -50,7 +50,7 @@
     width: 25px;
     height: 25px;
     border-radius: 50%; 
-    background: var(--md-primary-fg-color);
+    background: var(--md-primary-bg-color);
     cursor: pointer;
     opacity: 1;
 }
@@ -59,7 +59,7 @@
     width: 25px;
     height: 25px;
     border-radius: 50%;
-    background: var(--md-primary-fg-color);
+    background: var(--md-primary-bg-color);
     cursor: pointer;
     opacity: 1.
 }
