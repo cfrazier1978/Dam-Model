@@ -15,5 +15,7 @@
     <label for="reserve-selection">Reservation Percentage</label>
     <input id="reserve-selection" type="range" min="0" max="100" step="10" value="30" class="slider">
     <br />
-    <input type="button" id="update-button" class="button" value="Run Simulation">
+    <p>
+        <input type="button" id="update-button" class="button" value="Run Simulation">
+    </p>
 </div>
