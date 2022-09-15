@@ -49,8 +49,8 @@
     appearance: none;
     width: 25px;
     height: 25px;
-    border-radius: 50%; 
-    background: var(--md-primary-bg-color);
+    border-radius: 5px; 
+    background: var(--md-primary-fg-color);
     cursor: pointer;
     opacity: 1;
 }
@@ -58,8 +58,8 @@
 .slider::-moz-range-thumb {
     width: 25px;
     height: 25px;
-    border-radius: 50%;
-    background: var(--md-primary-bg-color);
+    border-radius: 5px;
+    background: var(--md-primary-fg-color);
     cursor: pointer;
     opacity: 1;
 }
