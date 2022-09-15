@@ -29,6 +29,7 @@
 }
 
 .radio {
+    box-shadow: 1px 1px red;
     accent-color: var(--md-primary-fg-color);
     height: 25px;
     width: 25px;
