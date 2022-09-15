@@ -61,7 +61,7 @@
 .slider::-moz-range-thumb {
     width: 18px;
     height: 18px;
-    border: 2px solid rgba(23, 23, 23, .5);
+    border: 2px solid rgba(23, 23, 23, .7);
     border-radius: 50%;
     background: var(--md-primary-fg-color);
     cursor: pointer;
