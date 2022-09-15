@@ -6,5 +6,5 @@
     <label for="river-selection">River Selection</label><br>
     <input id="river-selection" type="radio" class="radio">
     <br />
-    <input type="button" class="button">
+    <button id="update-button">Run Simulation</button>
 </div>
