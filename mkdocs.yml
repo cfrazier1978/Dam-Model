@@ -6,9 +6,6 @@ theme:
         - toc.integrate
 extra_css:
     - css/labs.css
-extra_javascript:
-    - js/require.js
-    - js/embed-amd.js
 markdown_extensions:
     - admonition
     - pymdownx.highlight:
@@ -20,6 +17,4 @@ nav:
     - index.md
 extra:
     generator: false
-plugins:
-    - mkdocs-jupyter
         
