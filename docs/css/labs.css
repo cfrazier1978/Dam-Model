@@ -23,10 +23,11 @@
 }
 
 .button {
-    border: 2px solid var(--md-primary-fg-color);
-    color: var(--md-primary-fg-color);
-    font-size: 25px;
-    padding: 25px;
+    background: var(--md-primary-fg-color);
+    border-radius: 5px;
+    color: transparent;
+    font-size: 20px;
+    padding: 20px;
     text-align: center;
 }
 
