@@ -32,11 +32,11 @@
     accent-color: var(--md-primary-fg-color);
     height: 25px;
     width: 25px;
-    outline: 2px solid red;
+    border: 2px solid red;
 }
 
 .radio .radio:before .radio:after {
-    border: 2px solid var(--md-default-bg-color);
+    border: 2px solid red;
 }
 
 .slider {
