@@ -24,8 +24,8 @@
 
 .button {
     background: var(--md-primary-fg-color);
-    border-radius: 5px;
-    color: transparent;
+    border-radius: 10px;
+    color: var(--md-default-bg-color);
     font-size: 20px;
     padding: 20px;
     text-align: center;
