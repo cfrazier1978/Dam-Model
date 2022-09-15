@@ -39,7 +39,7 @@
     border-radius: 5px;  
     --background: var(--md-primary-text-color);
     outline: none;
-    opacity: 0.5;
+    opacity: 1;
     -webkit-transition: .2s;
     transition: opacity .2s;
 }
