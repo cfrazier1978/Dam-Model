@@ -52,7 +52,7 @@
     border-radius: 50%; 
     background: var(--md-primary-fg-color);
     cursor: pointer;
-    opacity: 1.0;
+    opacity: 1;
 }
 
 .slider::-moz-range-thumb {
@@ -61,5 +61,5 @@
     border-radius: 50%;
     background: var(--md-primary-fg-color);
     cursor: pointer;
-    opacity: 1.0.
+    opacity: 1.
 }
