@@ -32,8 +32,6 @@
 }
 
 .radio {
-    -webkit-appearance: unset;
-    appearance: unset;
     accent-color: var(--md-primary-fg-color);
     border: 2px solid var(--md-primary-fg-color);
     border-radius: 50%;
