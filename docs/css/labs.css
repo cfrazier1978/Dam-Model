@@ -52,8 +52,8 @@
 .slider::-webkit-slider-thumb {
     -webkit-appearance: none;
     appearance: none;
-    width: 17px;
-    height: 17px;
+    width: 18px;
+    height: 18px;
     border: 2px solid var(--md-default-bg-color);
     border-radius: 50%; 
     background: var(--md-primary-fg-color);
@@ -62,8 +62,8 @@
 }
 
 .slider::-moz-range-thumb {
-    width: 17px;
-    height: 17px;
+    width: 18px;
+    height: 18px;
     border: 2px solid var(--md-default-bg-color);
     border-radius: 50%;
     background: var(--md-primary-fg-color);
