@@ -49,21 +49,21 @@
 .slider::-webkit-slider-thumb {
     -webkit-appearance: none;
     appearance: none;
-    width: 23px;
-    height: 23px;
+    width: 21px;
+    height: 21px;
     border: 2px solid white;
     border-radius: 50%; 
-    background: var(--md-primary-fg-color);
+    background: var(--md-default-bg-color);
     cursor: pointer;
-    outline: 2px solid red;
+    outline: 2px solid var(--md-primary-fg-color);
 }
 
 .slider::-moz-range-thumb {
-    width: 23px;
-    height: 23px;
-    border: 2px solid white;
+    width: 21px;
+    height: 21px;
+    border: 2px solid var(--md-default-bg-color);
     border-radius: 50%;
     background: var(--md-primary-fg-color);
     cursor: pointer;
-    outline: 2px solid red;
+    outline: 2px solid var(--md-primary-fg-color);
 }
