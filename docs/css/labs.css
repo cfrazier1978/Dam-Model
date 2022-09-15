@@ -4,6 +4,8 @@
     --md-code-bg-color: #181818;
     --md-footer-bg-color: #FFCD00;
     --md-footer-bg-color--dark: #FFCD00;
+    --font-primary: 'Teko', sans-serif;
+    --font-secondary: 'Rubik', sans-serif;
 }
 
 .md-header {
@@ -26,8 +28,15 @@
     background: var(--md-primary-fg-color);
     border-radius: 10px;
     color: var(--md-default-bg-color);
-    padding: 20px;
+    padding: 24px;
     text-align: center;
+    font-family: var(--font-secondary);
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 0.5px;
+    text-transform: uppercase;
 }
 
 .checkbox {
