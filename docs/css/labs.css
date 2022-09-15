@@ -53,8 +53,8 @@
 .slider::-webkit-slider-thumb {
     -webkit-appearance: none;
     appearance: none;
-    width: 18px;
-    height: 18px;
+    width: 21px;
+    height: 21px;
     border: 4px solid var(--md-default-bg-color);
     border-radius: 50%; 
     background: var(--md-primary-fg-color);
