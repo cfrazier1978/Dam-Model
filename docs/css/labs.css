@@ -30,9 +30,12 @@
 
 .radio {
     accent-color: var(--md-primary-fg-color);
-    border: 2px solid var(--md-default-bg-color);
     height: 25px;
     width: 25px;
+}
+
+.radio:before {
+    border: 2px solid var(--md-default-bg-color);
 }
 
 .slider {
