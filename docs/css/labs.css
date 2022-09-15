@@ -34,7 +34,7 @@
     width: 25px;
 }
 
-.radio:before {
+.radio:before .radio:after {
     border: 2px solid var(--md-default-bg-color);
 }
 
@@ -52,8 +52,8 @@
 .slider::-webkit-slider-thumb {
     -webkit-appearance: none;
     appearance: none;
-    width: 19px;
-    height: 19px;
+    width: 17px;
+    height: 17px;
     border: 2px solid var(--md-default-bg-color);
     border-radius: 50%; 
     background: var(--md-primary-fg-color);
@@ -62,8 +62,8 @@
 }
 
 .slider::-moz-range-thumb {
-    width: 19px;
-    height: 19px;
+    width: 17px;
+    height: 17px;
     border: 2px solid var(--md-default-bg-color);
     border-radius: 50%;
     background: var(--md-primary-fg-color);
