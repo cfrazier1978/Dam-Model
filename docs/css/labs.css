@@ -22,6 +22,14 @@
     display: none;
 }
 
+.button {
+    border: 2px solid var(--md-primary-fg-color);
+    color: var(--md-primary-fg-color);
+    font-size: 25px;
+    padding: 25px;
+    text-align: center;
+}
+
 .checkbox {
     -webkit-appearance: none;
     appearance: none;
@@ -38,10 +46,6 @@
     cursor: pointer;
     height: 25px; 
     width: 25px;
-}
-
-.radio:checked .radio:checked:before {
-    background: var(--md-primary-fg-color);
 }
 
 .slider {
