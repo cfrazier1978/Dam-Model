@@ -29,7 +29,8 @@ window.addEventListener('load', () => {
     }
     
     function runSimulation() {
-        renderRiverVolume(river);
+        renderRiverFlowRate(river);
+        renderReservoirLevel();
     }
     
     function setDefaults() {
@@ -38,7 +39,7 @@ window.addEventListener('load', () => {
         reserveSelectionDetails.innerHTML = reserve;
     }
     
-    function renderRiverVolume(river) {
+    function renderRiverFlowRate(river) {
         d3.select("#river-flow-rate").select("svg").remove();
         
         // set the dimensions and margins of the graph
