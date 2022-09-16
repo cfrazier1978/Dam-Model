@@ -11,8 +11,7 @@
 #analysis {
     display: flex;
     flex-direction: row;
-    align-items: space-around;
-    background: red;
+    justify-content: space-around;
 }
 
 #controls {
