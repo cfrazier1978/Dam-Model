@@ -17,8 +17,10 @@ window.addEventListener('load', () => {
     
     let river = 'all';
     allSelection.checked = true;
+    riverVolume.innerHTML = river;
     let reserve = null;
     reserveSelection.value = reserve;
+    fillRate.innerHTML = reserve;
     
     function handleReserveChange(event) {
         reserve = event.target.value;
