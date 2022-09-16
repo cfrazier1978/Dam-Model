@@ -70,7 +70,7 @@ window.addEventListener('load', () => {
 
             // Add Y axis
             const y = d3.scaleLinear()
-              .domain(data.map(d => d.Volume)
+              .domain(data.map(d => d.Volume))
               .range([ height, 0]);
             svg.append("g")
               .call(d3.axisLeft(y));
