@@ -19,3 +19,5 @@ function handleReserveChange(event) {
 function handleRiverChange(event) {
     console.log(event.target.value);
 }
+
+console.log(d3);
