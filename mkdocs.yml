@@ -6,6 +6,8 @@ theme:
         - toc.integrate
 extra_css:
     - css/labs.css
+extra_javascript:
+    - js/analysis.js
 markdown_extensions:
     - admonition
     - pymdownx.highlight:
