@@ -7,12 +7,14 @@ window.addEventListener('load', () => {
     const allSelection = document.getElementById('river-selection-all');
     const reserveSelection = document.getElementById('reserve-selection');
     const reserveSelectionDetails = document.getElementById('reserve-selection-details');
+    const runSimulation = document.getElementById('run-simulation');
 
     blueSelection.addEventListener('change', handleRiverChange);
     whiteSelection.addEventListener('change', handleRiverChange);
     atbaraSelection.addEventListener('change', handleRiverChange);
     allSelection.addEventListener('change', handleRiverChange);
     reserveSelection.addEventListener('change', handleReserveChange);
+    runSimulation.addEventListener('click', runSimulation);
     
     let river = 'all';
     let reserve = '30';
@@ -26,14 +28,17 @@ window.addEventListener('load', () => {
         river = event.target.value;
     }
     
+    function runSimulation() {
+        renderRiverVolume(river);
+    }
+    
     function setDefaults() {
         reserveSelection.value = reserve;
         allSelection.checked = true;
         reserveSelectionDetails.innerHTML = reserve;
-        renderRiverVolume();
     }
     
-    function renderRiverVolume() {
+    function renderRiverVolume(river) {
         // set the dimensions and margins of the graph
         const margin = {top: 30, right: 30, bottom: 70, left: 60},
             width = 460 - margin.left - margin.right,
@@ -48,7 +53,7 @@ window.addEventListener('load', () => {
             .attr("transform", `translate(${margin.left},${margin.top})`);
 
         // Parse the Data
-        d3.csv("data/all.csv").then( function(data) {
+        d3.csv(`data/${river}.csv`).then( function(data) {
             // X axis
             const x = d3.scaleBand()
               .range([ 0, width ])
