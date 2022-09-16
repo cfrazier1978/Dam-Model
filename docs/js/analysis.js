@@ -6,6 +6,7 @@ window.addEventListener('load', () => {
     const atbaraSelection = document.getElementById('river-selection-atbara');
     const allSelection = document.getElementById('river-selection-all');
     const reserveSelection = document.getElementById('reserve-selection');
+    const reserveSelectionDetails = document.getElementById('reserve-selection-details');
     const riverVolume = document.getElementById('river-volume');
     const fillRate = document.getElementById('fill-rate');
 
@@ -30,9 +31,7 @@ window.addEventListener('load', () => {
     
     function setDefaults() {
         reserveSelection.value = reserve;
-        fillRate.innerHTML = reserve;
         allSelection.checked = true;
-        riverVolume.innerHTML = river;
     }
     
     setDefaults();

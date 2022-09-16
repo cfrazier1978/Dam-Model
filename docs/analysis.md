@@ -16,7 +16,7 @@
         <label for="river-selection-all">All Rivers</label>
     </p>
     <p>
-        <label for="reserve-selection">Reserve Percentage:</label>
+        <label for="reserve-selection">Reserve Percentage (current: <span id="reserve-selection-details"></span>):</label>
         <input id="reserve-selection" type="range" min="0" max="100" step="10" class="slider">
     </p>
     <p>
