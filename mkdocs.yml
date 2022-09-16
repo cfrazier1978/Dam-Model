@@ -4,6 +4,9 @@ theme:
         scheme: slate
     features:
         - toc.integrate
+nav:
+    - index.md
+    - analysis.md
 extra_css:
     - css/labs.css
 extra_javascript:
@@ -16,9 +19,6 @@ markdown_extensions:
     - pymdownx.inlinehilite
     - pymdownx.snippets
     - pymdownx.superfences
-nav:
-    - index.md
-    - analysis.md
 extra:
     generator: false
         
