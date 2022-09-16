@@ -1,8 +1,4 @@
 # Analysis
-<script type="module">
-import * as d3 from "https://cdn.skypack.dev/d3@7";
-</script>
-
 <div class="controls">
     <p>
         <span>River Selection:</span>
