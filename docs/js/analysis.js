@@ -8,6 +8,16 @@ window.addEventListener('load', () => {
     const reserveSelection = document.getElementById('reserve-selection');
     const riverVolume = document.getElementById('river-volume');
     const fillRate = document.getElementById('fill-rate');
+    
+    const handleReserveChange = (event) => {
+        river = event.target.value;
+        riverVolume.innerHTML = river;
+    }
+
+    const handleRiverChang = (event) => {
+        reserve = Number(event.target.value);
+        fillRate.innerHTML = reserve;
+    }
 
     blueSelection.addEventListener('change', handleRiverChange);
     whiteSelection.addEventListener('change', handleRiverChange);
@@ -19,14 +29,4 @@ window.addEventListener('load', () => {
     allSelection.checked = true;
     let reserve = null;
     reserveSelection.value = reserve;
-    
-    const handleReserveChange = (event) => {
-        river = event.target.value;
-        riverVolume.innerHTML = river;
-    }
-
-    const handleRiverChang = (event) => {
-        reserve = Number(event.target.value);
-        fillRate.innerHTML = reserve;
-    }
 });
