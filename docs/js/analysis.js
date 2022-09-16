@@ -48,7 +48,7 @@ window.addEventListener('load', () => {
             .attr("transform", `translate(${margin.left},${margin.top})`);
 
         // Parse the Data
-        d3.csv("../data/all.csv").then( function(data) {
+        d3.csv("data/all.csv").then( function(data) {
             // X axis
             const x = d3.scaleBand()
               .range([ 0, width ])
