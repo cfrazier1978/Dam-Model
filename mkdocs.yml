@@ -6,6 +6,7 @@ theme:
         - toc.integrate
 nav:
     - index.md
+    - model.md
     - analysis.md
 extra_css:
     - css/labs.css

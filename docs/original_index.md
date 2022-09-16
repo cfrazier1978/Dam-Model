@@ -1,1 +1,0 @@
-You can find the model <a href="https://labs-publications.s3.eu-west-1.amazonaws.com/1655386134_grand_ethiopian_renaissance_dam.html" target="_blank">here</a>.
