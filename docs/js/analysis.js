@@ -69,7 +69,7 @@ window.addEventListener('load', () => {
                 .style("text-anchor", "end");
 
             // Add Y axis
-            const y = d3.scaleLinear()
+            const y = d3.scaleBand()
               .domain(data.map(d => d.Volume))
               .range([ height, 0]);
             svg.append("g")
