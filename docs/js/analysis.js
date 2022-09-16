@@ -39,6 +39,8 @@ window.addEventListener('load', () => {
     }
     
     function renderRiverVolume(river) {
+        d3.select("#fill-rate").remove();
+        
         // set the dimensions and margins of the graph
         const margin = {top: 30, right: 30, bottom: 70, left: 60},
             width = 460 - margin.left - margin.right,
@@ -46,7 +48,6 @@ window.addEventListener('load', () => {
 
         // append the svg object to the body of the page
         const svg = d3.select("#fill-rate")
-          .remove()
           .append("svg")
             .attr("width", width + margin.left + margin.right)
             .attr("height", height + margin.top + margin.bottom)
