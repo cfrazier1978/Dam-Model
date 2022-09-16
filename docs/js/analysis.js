@@ -32,6 +32,7 @@ window.addEventListener('load', () => {
     function setDefaults() {
         reserveSelection.value = reserve;
         allSelection.checked = true;
+        reserveSelectionDetails.innerHTML = reserve;
     }
     
     setDefaults();
