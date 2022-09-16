@@ -23,3 +23,7 @@
         <input type="button" id="update-button" class="button" value="Run Simulation" onclick="something()">
     </p>
 </div>
+<div class="dataviz">
+    <div id="river-volume"></div>
+    <div id="fill-rate"></div>
+</div>
