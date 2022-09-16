@@ -2,6 +2,7 @@
 <div class="controls">
     <p>
         <span>River Selection:</span>
+        <br />
         <input id="river-selection-blue" name="river-selection" value="blue" type="radio" class="radio">
         <label for="river-selection-blue">Blue Nile</label>
         <br />
