@@ -10,12 +10,14 @@
 
 #analysis {
     display: flex;
-    flex-direction: row;
-    justify-content: space-around;
+    flex-direction: column;
+    align-items: space-around;
 }
 
 #controls {
-    display: block;
+    display: flex;
+    flex-direction: row;
+    align-items: space-around;
 }
 
 #plots {
