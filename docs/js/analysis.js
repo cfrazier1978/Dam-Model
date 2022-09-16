@@ -7,14 +7,14 @@ window.addEventListener('load', () => {
     const allSelection = document.getElementById('river-selection-all');
     const reserveSelection = document.getElementById('reserve-selection');
     const reserveSelectionDetails = document.getElementById('reserve-selection-details');
-    const runSimulation = document.getElementById('run-simulation');
+    const runSimulationButton = document.getElementById('run-simulation');
 
     blueSelection.addEventListener('change', handleRiverChange);
     whiteSelection.addEventListener('change', handleRiverChange);
     atbaraSelection.addEventListener('change', handleRiverChange);
     allSelection.addEventListener('change', handleRiverChange);
     reserveSelection.addEventListener('change', handleReserveChange);
-    runSimulation.addEventListener('click', runSimulation);
+    runSimulationButton.addEventListener('click', runSimulation);
     
     let river = 'all';
     let reserve = '30';
