@@ -6,18 +6,27 @@ window.addEventListener('load', () => {
     const atbaraSelection = document.getElementById('river-selection-atbara');
     const allSelection = document.getElementById('river-selection-all');
     const reserveSelection = document.getElementById('reserve-selection');
+    const riverVolume = document.getElementById('river-volume');
+    const fillRate = document.getElementById('fill-rate');
 
     blueSelection.addEventListener('change', handleRiverChange);
     whiteSelection.addEventListener('change', handleRiverChange);
     atbaraSelection.addEventListener('change', handleRiverChange);
     allSelection.addEventListener('change', handleRiverChange);
     reserveSelection.addEventListener('change', handleReserveChange);
-
-    function handleReserveChange(event) {
-        console.log(event.target.value);
+    
+    let river = 'all';
+    allSelection.checked = true;
+    let reserve = null;
+    reserveSelection.value = reserve;
+    
+    const handleReserveChange = (event) => {
+        river = event.target.value;
+        riverVolume.innerHTML = river;
     }
 
-    function handleRiverChange(event) {
-        console.log(event.target.value);
+    const handleRiverChang = (event) => {
+        reserve = Number(event.target.value);
+        fillRate.innerHTML = reserve;
     }
 });
