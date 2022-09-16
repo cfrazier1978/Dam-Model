@@ -25,7 +25,7 @@ window.addEventListener('load', () => {
         riverVolume.innerHTML = river;
     }
 
-    function handleRiverChang(event) {
+    function handleRiverChange(event) {
         reserve = Number(event.target.value);
         fillRate.innerHTML = reserve;
     }
