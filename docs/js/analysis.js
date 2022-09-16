@@ -55,7 +55,7 @@ window.addEventListener('load', () => {
             .attr("transform", `translate(${margin.left},${margin.top})`);
 
         // Parse the Data
-        d3.csv(`data/${river}.csv`).then( function(data) {
+        d3.csv(`data/${river}.csv`).then(function(data) {
             // X axis
             const x = d3.scaleBand()
               .range([ 0, width ])
@@ -70,7 +70,7 @@ window.addEventListener('load', () => {
 
             // Add Y axis
             const y = d3.scaleLinear()
-              .domain([0, 25000])
+              .domain([0, d3.max(data, function(d) { return +d.Volume;})])
               .range([ height, 0]);
             svg.append("g")
               .call(d3.axisLeft(y));
