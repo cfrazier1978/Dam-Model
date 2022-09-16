@@ -72,8 +72,8 @@ window.addEventListener('load', () => {
             svg.selectAll("mybar")
               .data(data)
               .join("rect")
-                .attr("x", d => x(d.Country))
-                .attr("y", d => y(d.Value))
+                .attr("x", d => x(d.Month))
+                .attr("y", d => y(d.Volume))
                 .attr("width", x.bandwidth())
                 .attr("height", d => height - y(d.Value))
                 .attr("fill", "#69b3a2");
