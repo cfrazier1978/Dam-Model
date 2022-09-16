@@ -8,6 +8,22 @@
     --font-secondary: 'Rubik', sans-serif;
 }
 
+#analysis {
+    display: flexbox;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    background: red;
+}
+
+#controls {
+    
+}
+
+#plots {
+    
+}
+
 .md-header {
     color: #232323;
 }
