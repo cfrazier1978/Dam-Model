@@ -11,7 +11,6 @@
 #analysis {
     display: flex;
     flex-direction: column;
-    justify-content: space-evenly;
 }
 
 #controls {
@@ -21,11 +20,12 @@
 }
 
 #spacer {
-    border-top: 1px solid var(--md-code-bg-color);
-    height: 200px;
+    border-bottom: 3px solid var(--md-code-bg-color);
+    height: 50px;
 }
 
 #plots {
+    padding-top: 50px;
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
