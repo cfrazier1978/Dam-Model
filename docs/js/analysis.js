@@ -39,7 +39,7 @@ window.addEventListener('load', () => {
     }
     
     function renderRiverVolume(river) {
-        d3.select("#fill-rate").remove();
+        d3.select("svg").remove();
         
         // set the dimensions and margins of the graph
         const margin = {top: 30, right: 30, bottom: 70, left: 60},
