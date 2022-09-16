@@ -46,6 +46,7 @@ window.addEventListener('load', () => {
 
         // append the svg object to the body of the page
         const svg = d3.select("#fill-rate")
+          .remote()
           .append("svg")
             .attr("width", width + margin.left + margin.right)
             .attr("height", height + margin.top + margin.bottom)
