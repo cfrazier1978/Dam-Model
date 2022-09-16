@@ -69,8 +69,8 @@ window.addEventListener('load', () => {
                 .style("text-anchor", "end");
 
             // Add Y axis
-            const y = d3.scaleBand()
-              .domain(data.map(d => d.Volume))
+            const y = d3.scaleLinear()
+              .domain([0, 25000])
               .range([ height, 0]);
             svg.append("g")
               .call(d3.axisLeft(y));
