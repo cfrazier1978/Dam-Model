@@ -21,12 +21,12 @@ window.addEventListener('load', () => {
     reserveSelection.value = reserve;
     
     function handleReserveChange(event) {
-        river = event.target.value;
-        riverVolume.innerHTML = river;
+        reserve = event.target.value;
+        fillRate.innerHTML = reserve;
     }
 
     function handleRiverChange(event) {
-        reserve = Number(event.target.value);
-        fillRate.innerHTML = reserve;
+        river = event.target.value;
+        riverVolume.innerHTML = river;
     }
 });
