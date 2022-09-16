@@ -8,6 +8,7 @@ extra_css:
     - css/labs.css
 extra_javascript:
     - js/analysis.js
+    - js/d3@7.js
 markdown_extensions:
     - admonition
     - pymdownx.highlight:
