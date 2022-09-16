@@ -26,6 +26,7 @@
             </div>
         </div>
     </div>
+    <div id="spacer"></div>
     <div id="plots">
         <div id="river-flow-rate"></div>
         <div id="reservoir-level"></div>

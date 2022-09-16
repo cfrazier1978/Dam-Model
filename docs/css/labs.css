@@ -19,8 +19,15 @@
     justify-content: space-evenly;
 }
 
+#spacer {
+    border-bottom: 1px solid red;
+    height: 200px;
+}
+
 #plots {
-    display: block;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
 }
 
 .md-header {
