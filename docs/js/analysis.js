@@ -1,7 +1,5 @@
 'use strict';
 
-import * as d3 from "https://cdn.skypack.dev/d3@7";
-
 const blueSelection = document.getElementById('river-selection-blue');
 const whiteSelection = document.getElementById('river-selection-white');
 const atbaraSelection = document.getElementById('river-selection-atbara');
