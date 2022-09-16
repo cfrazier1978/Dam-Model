@@ -20,7 +20,7 @@
 }
 
 #spacer {
-    border-bottom: 3px solid var(--md-code-bg-color);
+    border-bottom: 2px solid var(--md-primary-fg-color);
     height: 50px;
 }
 
