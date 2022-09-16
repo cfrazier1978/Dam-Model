@@ -16,6 +16,6 @@
     <input id="reserve-selection" type="range" min="0" max="100" step="10" value="30" class="slider">
     <br />
     <p>
-        <input type="button" id="update-button" class="button" value="Run Simulation">
+        <input type="button" id="update-button" class="button" value="Run Simulation" onclick="something()">
     </p>
 </div>
