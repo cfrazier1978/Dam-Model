@@ -21,7 +21,7 @@ window.addEventListener('load', () => {
     
     function handleReserveChange(event) {
         reserve = event.target.value;
-        fillRate.innerHTML = reserve;
+        reserveSelectionDetails.innerHTML = reserve;
     }
 
     function handleRiverChange(event) {
