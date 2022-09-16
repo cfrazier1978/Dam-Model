@@ -75,7 +75,7 @@ window.addEventListener('load', () => {
                 .attr("x", d => x(d.Month))
                 .attr("y", d => y(d.Volume))
                 .attr("width", x.bandwidth())
-                .attr("height", d => height - y(d.Value))
+                .attr("height", d => height - y(d.Volume))
                 .attr("fill", "#69b3a2");
         });
     }
