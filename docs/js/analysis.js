@@ -52,7 +52,7 @@ window.addEventListener('load', () => {
             // X axis
             const x = d3.scaleBand()
               .range([ 0, width ])
-              .domain(data.map(d => d.Country))
+              .domain(data.map(d => d.Month))
               .padding(0.2);
             svg.append("g")
               .attr("transform", `translate(0, ${height})`)
