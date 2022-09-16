@@ -11,17 +11,16 @@
 #analysis {
     display: flex;
     flex-direction: row;
-    align-items: center;
-    justify-content: center;
+    align-items: space-around;
     background: red;
 }
 
 #controls {
-    
+    display: block;
 }
 
 #plots {
-    
+    display: block;
 }
 
 .md-header {
