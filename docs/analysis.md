@@ -4,7 +4,7 @@ This analysis allows you to set different parameters to see how long it would ta
 
 You have two parameters to set: The river that flows through the dam and how much water will be held back in reserve to fill the dam.  The results display the water flow of the river (or rivers) selected and the number of timesteps to fill the reservoir.
 
-Note: While the river is only built on the Blue Nile River, this model is to represent how you could build this model for any dam and is not limited to represent the actual usecase for the GERD.
+Note: While the GERD is only built on the Blue Nile River, this model is to represent how you could use this model for any type of dam and is not limited to represent the actual usecase for the GERD.
 
 <div id="analysis">
     <div id="controls">
