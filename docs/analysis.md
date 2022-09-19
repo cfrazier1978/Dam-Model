@@ -2,7 +2,7 @@
 
 This analysis allows you to set different parameters to see how long it would take to fill the reservoir behind the Grand Ethiopian Renaissance Dam (GERD).
 
-You have two parameters to set: The river that flows through the dam and how much water will be held back in reserve to fill the dam.  The results display the water flow of the river (or rivers) selected and the number of timesteps to fill the reservoir.
+You have two parameters to set: The river that flows through the dam and how much water will be held back in reserve to fill the reservoir.  The results display the water flow of the river (or rivers) selected and the number of timesteps to fill the reservoir.
 
 Note: While the GERD is only built on the Blue Nile River, this model is to represent how you could use this model for any type of dam and is not limited to represent the actual usecase for the GERD.
 
