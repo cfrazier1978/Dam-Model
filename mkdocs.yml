@@ -8,6 +8,7 @@ nav:
     - index.md
     - model.md
     - analysis.md
+    - Background.md
 extra_css:
     - css/labs.css
 extra_javascript:
