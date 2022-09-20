@@ -108,7 +108,7 @@ window.addEventListener('load', () => {
         d3.csv(`data/simulation.csv`, function(data) {
 
             // Add X axis -> timestep
-            const x = d3.ScaleLinear()
+            const x = d3.scaleLinear()
               .domain(d3.extent(data, function(d) { return d.timestep; }))
               .range([ 0, width ]);
             svg.append("g")
