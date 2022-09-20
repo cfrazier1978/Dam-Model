@@ -108,7 +108,7 @@ window.addEventListener('load', () => {
         d3.csv(`data/simulation.csv`, function(data) {
 
             // Add X axis -> Timestep
-            const x = d3.scale.ordinal()
+            const x = d3.scaleOrdinal()
               .rangeRoundBands([0,width])
               .domain(data.map(function(d) { return d.timestep }));
             
