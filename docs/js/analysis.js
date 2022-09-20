@@ -108,9 +108,9 @@ window.addEventListener('load', () => {
         d3.csv(`data/simulation.csv`, function(data) {
 
             // Add X axis -> Timestep
-            const x = d3.scaleOrdinal()
-              .rangeRoundBands([0,width])
-              .domain(data.map(function(d) { return d.timestep }));
+            const x = d3.scaleLinear()
+              .range([0, width])
+              .domain([0, 500]);
             
             svg.append("g")
               .attr("transform", `translate(0, ${height})`)
