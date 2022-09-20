@@ -5,7 +5,7 @@ from models.psubs import partial_state_update_blocks
 
 simulation_parameters = {
     'T': range(500),
-    'N': 10,
+    'N': 1,
     'M': {
        'Reserve_Percent': [10, 20, 30, 40, 50, 60, 70, 80, 90, 100]
     }
