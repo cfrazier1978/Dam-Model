@@ -35,7 +35,7 @@ def Reservoir_Update(params, step, sL, s, _input):
   v = s['Reservoir_Level'] + _input['Dam_Reserve']
   return (k,v)
 
-def Reservation_Update(params, step, sL, s, _input):
+def Reserve_Update(params, step, sL, s, _input):
     return ('Reserve_Percent', params['Reserve_Percent'])
 
 def Month_Update(params, step, sL, s, _input):
