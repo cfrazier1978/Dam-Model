@@ -107,7 +107,7 @@ window.addEventListener('load', () => {
         //Read the data
         d3.csv(`data/simulation.csv`, function(data) {
             
-            console.log(typeof data, data);
+            console.log(JSON.stringify(data, undefined, 2));
             
             const filteredData = data.filter(d => {
                 if (d.Reserve_Percent * 100 === reservePercent) return d;
