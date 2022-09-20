@@ -4,7 +4,7 @@ from models.state_variables import genesis_states
 from models.psubs import partial_state_update_blocks
 
 simulation_parameters = {
-    'T': range(250),
+    'T': range(500),
     'N': 1,
     'M': {
        'Reserve_Percent': [0.1, 0.2, 0.3, 0.4, 0.5, 0.6, 0.7, 0.8, 0.9, 1.0]
