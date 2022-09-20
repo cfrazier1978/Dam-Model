@@ -5,8 +5,10 @@ from models.psubs import partial_state_update_blocks
 
 simulation_parameters = {
     'T': range(500),
-    'N': 1,
-    # 'M': {}
+    'N': 10,
+    'M': {
+       'Reserve_Percent': [10, 20, 30, 40, 50, 60, 70, 80, 90, 100]
+    }
 }
 
 
@@ -16,7 +18,7 @@ c = config_sim(simulation_parameters)
 # The configurations above are then packaged into a `Configuration` object
 # #.append_model    <-- append model is the new way to do this in the future, append config is the old way.
 exp.append_configs(   
-    model_id = 'Hydroelectric_Dam_Model',
+    model_id = 'default',
     initial_state=genesis_states, #dict containing variable names and initial values
     partial_state_update_blocks=partial_state_update_blocks, #dict containing state update functions
     sim_configs=c #preprocessed dictionaries containing simulation parameters
