@@ -13,7 +13,7 @@ def Dam_Policy(params, step, sL, s):
   f = 0
   m = s['Current_Month']
   if s['Reservoir_Level'] < s['Reservoir_Capacity']:
-    f = df.at[m, 'Blue_Nile_Water_Flow'] * s['Reserve_Percent']
+    f = df.at[m, 'Blue_Nile_Water_Flow'] * params['Reserve_Percent']
     if m == 11:
       u = -11
       y = 1
