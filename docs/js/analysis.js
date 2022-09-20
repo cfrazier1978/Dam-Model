@@ -106,12 +106,11 @@ window.addEventListener('load', () => {
 
         //Read the data
         d3.csv(`data/simulation.csv`).then(function(data) {
-            
-            console.log(JSON.stringify(data, undefined, 2));
-            
             const filteredData = data.filter(d => {
                 if (d.Reserve_Percent * 100 === reservePercent) return d;
             });
+            
+            console.log('Length:' data);
 
             // Add X axis -> Timestep
             const x = d3.scaleLinear()
