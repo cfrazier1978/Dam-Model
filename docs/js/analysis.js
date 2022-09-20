@@ -105,7 +105,7 @@ window.addEventListener('load', () => {
             .attr("transform", `translate(${margin.left},${margin.top})`);
 
         //Read the data
-        d3.csv(`data/simulation.csv`, function(data) {
+        d3.csv(`data/simulation.csv`).then(function(data) {
             
             console.log(JSON.stringify(data, undefined, 2));
             
