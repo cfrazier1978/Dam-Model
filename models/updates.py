@@ -6,7 +6,6 @@ df = pd.DataFrame({
     'White_Nile_Water_Flow':[2469,1905,2014,2225,2026,1792,1368,1435,2236,3024,2786,2747],
     'Atbara_River_Water_Flow':[17,6,1,3,8,88,1536,5126,3306,770,145,46],
     'Total_Water_Flow':[3210,2359,2421,2655,2537,2964,7893,21798,19167,10924,5382,4050]
-  
 })
 
 def Dam_Policy(params, step, sL, s):
@@ -30,7 +29,6 @@ def Dam_Policy(params, step, sL, s):
       u = 1
       y = 0
     return({'Dam_Reserve': f, 'Month_Update': u, 'Year_Update': y})
-
 
 def Reservoir_Update(params, step, sL, s, _input):
   k = 'Reservoir_Level'
