@@ -107,18 +107,20 @@ window.addEventListener('load', () => {
         //Read the data
         d3.csv(`data/simulation.csv`, function(data) {
 
-            // Add X axis -> timestep
-            const x = d3.scaleLinear()
-              .domain(d3.extent(data, function(d) { return d.timestep; }))
-              .range([ 0, width ]);
+            // Add X axis -> Timestep
+            const x = d3.scale.ordinal()
+              .rangeRoundBands([0,width])
+              .domain(data.map(function(d) { return d.timestep }));
+            
             svg.append("g")
               .attr("transform", `translate(0, ${height})`)
               .call(d3.axisBottom(x));
 
-            // Add Y axis
+            // Add Y axis -> Reservation Level
             const y = d3.scaleLinear()
               .domain([0, d3.max(data, function(d) { return +d.Reservoir_Level; })])
               .range([ height, 0 ]);
+            
             svg.append("g")
               .call(d3.axisLeft(y));
 
