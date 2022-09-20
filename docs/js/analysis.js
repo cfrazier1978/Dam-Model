@@ -88,7 +88,7 @@ window.addEventListener('load', () => {
         });
     }
     
-    function renderReservoirLevel() {
+    function renderReservoirLevel(reservePercent) {
         d3.select("#reservoir-level").select("svg").remove();
         
         // set the dimensions and margins of the graph
@@ -106,6 +106,10 @@ window.addEventListener('load', () => {
 
         //Read the data
         d3.csv(`data/simulation.csv`, function(data) {
+            
+            data = data.filter(d => {
+                if (d.Reserve_Percent * 100 === reservePercent) return d;
+            });
 
             // Add X axis -> Timestep
             const x = d3.scaleLinear()
