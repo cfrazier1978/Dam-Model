@@ -110,7 +110,7 @@ window.addEventListener('load', () => {
                 if (d.Reserve_Percent * 100 === reservePercent) return d;
             });
             
-            console.log('Length:', data);
+            console.log('Length:', data.length);
 
             // Add X axis -> Timestep
             const x = d3.scaleLinear()
