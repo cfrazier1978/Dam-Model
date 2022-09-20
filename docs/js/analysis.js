@@ -30,7 +30,7 @@ window.addEventListener('load', () => {
     
     function runSimulation() {
         renderRiverFlowRate(river);
-        renderReservoirLevel();
+        renderReservoirLevel(reserve);
     }
     
     function setDefaults() {
