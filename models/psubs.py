@@ -7,6 +7,7 @@ partial_state_update_blocks = [
         },    
         'states': {
             'Reservoir_Level': Reservoir_Update,
+            'Reserve_Percent': Reserve_Update,
             'Current_Month': Month_Update,
             'Number_of_Years' : Year_Update
         }
