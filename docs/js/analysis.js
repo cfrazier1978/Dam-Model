@@ -87,7 +87,7 @@ window.addEventListener('load', () => {
                 .attr("fill", "#69b3a2");
             
             svg.append("text")
-                .attr("class", "y label")
+                .attr("class", "label")
                 .attr("text-anchor", "end")
                 .attr("y", 6)
                 .attr("dy", ".75em")
@@ -147,14 +147,14 @@ window.addEventListener('load', () => {
                 );
             
             svg.append("text")
-                .attr("class", "x label")
+                .attr("class", "label")
                 .attr("text-anchor", "end")
                 .attr("x", width)
                 .attr("y", height - 6)
                 .text("timestep");
             
             svg.append("text")
-                .attr("class", "y label")
+                .attr("class", "label")
                 .attr("text-anchor", "end")
                 .attr("y", 6)
                 .attr("dy", ".75em")
