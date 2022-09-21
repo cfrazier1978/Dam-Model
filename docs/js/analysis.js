@@ -92,6 +92,7 @@ window.addEventListener('load', () => {
                 .attr("y", 6)
                 .attr("dy", ".75em")
                 .attr("transform", "rotate(-90)")
+                .attr("fill", "#FFCD00")
                 .text("flow rate");
         });
     }
@@ -151,6 +152,7 @@ window.addEventListener('load', () => {
                 .attr("text-anchor", "end")
                 .attr("x", width)
                 .attr("y", height - 6)
+                .attr("fill", "#FFCD00")
                 .text("timestep");
             
             svg.append("text")
@@ -159,6 +161,7 @@ window.addEventListener('load', () => {
                 .attr("y", 6)
                 .attr("dy", ".75em")
                 .attr("transform", "rotate(-90)")
+                .attr("fill", "#FFCD00")
                 .text("reservoir level");
         });
     }
