@@ -113,7 +113,7 @@ window.addEventListener('load', () => {
             // Add X axis -> Timestep
             const x = d3.scaleLinear()
               .range([0, width])
-              .domain([0, 250]);
+              .domain([0, 200]);
             
             svg.append("g")
               .attr("transform", `translate(0, ${height})`)
