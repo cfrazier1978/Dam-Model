@@ -85,6 +85,14 @@ window.addEventListener('load', () => {
                 .attr("width", x.bandwidth())
                 .attr("height", d => height - y(d.Volume))
                 .attr("fill", "#69b3a2");
+            
+            svg.append("text")
+                .attr("class", "y label")
+                .attr("text-anchor", "end")
+                .attr("y", 6)
+                .attr("dy", ".75em")
+                .attr("transform", "rotate(-90)")
+                .text("flow rate");
         });
     }
     
@@ -143,7 +151,7 @@ window.addEventListener('load', () => {
                 .attr("text-anchor", "end")
                 .attr("x", width)
                 .attr("y", height - 6)
-                .text("X");
+                .text("timestep");
             
             svg.append("text")
                 .attr("class", "y label")
@@ -151,7 +159,7 @@ window.addEventListener('load', () => {
                 .attr("y", 6)
                 .attr("dy", ".75em")
                 .attr("transform", "rotate(-90)")
-                .text("Y");
+                .text("reservoir level");
         });
     }
     
