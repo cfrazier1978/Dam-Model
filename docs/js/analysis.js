@@ -43,7 +43,7 @@ window.addEventListener('load', () => {
         d3.select("#river-flow-rate").select("svg").remove();
         
         // set the dimensions and margins of the graph
-        const margin = {top: 30, right: 30, bottom: 70, left: 60},
+        const margin = {top: 10, right: 30, bottom: 30, left: 60},
             width = 460 - margin.left - margin.right,
             height = 400 - margin.top - margin.bottom;
 
@@ -130,7 +130,7 @@ window.addEventListener('load', () => {
 
             // Add Y axis -> Reservation Level
             const y = d3.scaleLinear()
-              .domain([0, 73000])
+              .domain([0, 75000])
               .range([ height, 0 ]);
             
             svg.append("g")
