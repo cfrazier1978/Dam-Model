@@ -6,4 +6,3 @@ nav:
 extra_javascript:
     - js/d3@7.js
     - js/analysis.js
-        
