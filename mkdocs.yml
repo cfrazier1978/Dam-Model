@@ -1,26 +1,9 @@
-theme:
-    name: material
-    palette:
-        scheme: slate
-    features:
-        - toc.integrate
 nav:
     - index.md
     - model.md
     - analysis.md
     - Background.md
-extra_css:
-    - css/labs.css
 extra_javascript:
     - js/d3@7.js
     - js/analysis.js
-markdown_extensions:
-    - admonition
-    - pymdownx.highlight:
-          anchor_linenums: true
-    - pymdownx.inlinehilite
-    - pymdownx.snippets
-    - pymdownx.superfences
-extra:
-    generator: false
         
