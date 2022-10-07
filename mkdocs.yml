@@ -3,6 +3,8 @@ nav:
     - model.md
     - analysis.md
     - Background.md
+extra_css:
+    - css/custom.css
 extra_javascript:
     - js/d3@7.js
     - js/analysis.js
